@@ -1,2 +1,2 @@
 Flask==2.2.2
-gdown
+gdown==4.64.1
