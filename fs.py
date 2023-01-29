@@ -19,10 +19,8 @@ def areaover():
     #url='https://drive.google.com/uc?id=' + url.split('/')[-2]
     #df = pd.read_csv(url)
 
-    url='https://drive.google.com/file/d/1KZjzaMNSOkUTfLZWqA70wY4H-34i5jon/view?usp=sharing'
-    file_id=url.split('/')[-2]
-    dwn_url='https://drive.google.com/uc?id=' + file_id
-    df = pd.read_csv(dwn_url)
+    
+    df = pd.read_csv("creditcard.csv)
     
     # calculate the correlation matrix
     corr = df.corr()
