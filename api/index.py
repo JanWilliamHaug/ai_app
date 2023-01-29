@@ -19,8 +19,8 @@ if "__name__" == "__main__":
     #return jsonify(message='colab notebook ran successfully')
 
 @app.route('/about')
-def about():
-    return 'About'
+#def about():
+ #   return 'About'
 
 """
 from flask import Flask, jsonify
